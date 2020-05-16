@@ -2,13 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { CommonModule } from '@angular/common';
+import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputButtonUnitComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
